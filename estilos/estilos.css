@@ -22,9 +22,9 @@ video {
     padding-right: 1rem;
     margin: 3rem 3rem;
     margin-top: 10%;
-    box-shadow: 2px 1px 29px 6px rgba(139, 22, 143, 0.56);
-    -webkit-box-shadow: 2px 1px 29px 6px rgb(133, 39, 187);
-    -moz-box-shadow: 2px 1px 29px 6px rgba(248, 248, 248, 0.336);
+    box-shadow: 2px 1px 15px 6px rgba(139, 22, 143, 0.56);
+    -webkit-box-shadow: 2px 1px 20px 6px rgb(133, 39, 187);
+    -moz-box-shadow: 2px 1px 20px 6px rgba(248, 248, 248, 0.336);
     border-radius: 30px;
 }
 #container {  
@@ -51,12 +51,15 @@ a {
 h5{
     color: rgb(178, 135, 219);
 }
-@media (max-width:600px){
+@media (max-width:950px){
     p{
         display:none!important;
     }
     #texto:before {
         content: "Me llamo jazmin saravia, tengo 22 años y soy de Argentina, Buenos Aires.";
     }
+#main {
+    margin-top: 5%;
+}
 
 }
